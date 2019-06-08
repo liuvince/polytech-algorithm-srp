@@ -79,7 +79,7 @@ the algorithm enters phase 3.
 
 ### Phase 3: Find a rotation
 
-To find a rotation, start at a p_0 containing at least two individuals in their reduced list, and define recursively q_{i+1} to be the second on p_i's list and p_{i+1} to be the last on q_{i+1}'s list, until this sequence repeats some p_{j}, at which point a rotation is found.
+To find a rotation, start at a p_0 containing at least two individuals in their reduced list, and define recursively q_i to be the second on p_i's list and p_{i+1} to be the last on q_i's list, until this sequence repeats some p_{j}, at which point a rotation is found.
 
 | p_i | A | D | C | F | A | 
 |-----|---|---|---|---|---|
