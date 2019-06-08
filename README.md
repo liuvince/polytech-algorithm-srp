@@ -8,6 +8,7 @@ python main.py
 ## Example
 
 | Noms | Liste de préférences |
+|------|---|---|---|---|---|
 |A | B |C |F |E |D |
 |B | F |D |A |C |E |
 |C | F |E |B |A |D |
