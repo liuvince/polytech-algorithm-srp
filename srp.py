@@ -11,7 +11,7 @@
 from etape1 import etape1
 from etape2 import etape2
 from etape3 import etape3
-from interface import msgStage
+from interface import msgStage, msgStage2
 from easygui import msgbox
 
 def srp(pref,argPref):
@@ -26,7 +26,7 @@ def srp(pref,argPref):
 	offer = etape1(pref,argPref)
 
 	msgStage(pref, "Preference list of the participants by descending order of preference.")	
-	msgStage(offer, "Phase 1: Best Offer after the stage 1 for each participant.")
+	msgStage2(offer, "Phase 1: Best Offer after the stage 1 for each participant.")
 
 	# Test 1: pour savoir si tout le monde a recu une offre ou non
 	test1 = True

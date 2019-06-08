@@ -73,9 +73,32 @@ def msgStage(D, msg):
 		if D[i] is None:
 			text += "None\n\n"
 		else:
-			for j in D[i]:
-				text += j + " "
+			for j in range(len(D[i])-1):
+				text += D[i][j] + " - "
+			text += D[i][-1]
 			text += "\n\n"
+
+	# On affiche tout
+	codebox(msg , "Stable Roommates Problem", text)
+	return None
+
+def msgStage2(offer, msg):
+	"""
+		Genere un msg associé aux offres dans un codebox
+	"""
+
+	text = ""
+	L = offer
+
+	# Parcours les élements du dictionnaire
+	for i in L:
+		# La clée
+		text += i + "\n"
+		# Les valeurs
+		if offer[i] is None:
+			text += "None\n\n"
+		else:
+			text += offer[i] + "\n\n"
 
 	# On affiche tout
 	codebox(msg , "Stable Roommates Problem", text)
