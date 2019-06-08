@@ -5,17 +5,15 @@ This is a demo of the Irving Algorithm for the Stable roommates problem. The cod
 ```
 python main.py
 ```
+## Example
 
-\begin{tabular}{|l|l|l|l|l|l|}
-\hline
-\textbf{Noms}  & \multicolumn{5}{l|}{\textbf{Liste de préférences}} \\ \hline
-\textbf{A} &  B  &  C  &  F  &  E  & D  \\ \hline
-\textbf{B} & F & D  & A  &  C  &  E \\ \hline
-\textbf{C} &  F  &  E  &  B &  A &  D \\ \hline
-\textbf{D} &  A &  C &  E  & B  & F  \\ \hline
-\textbf{E} &  B  &  A &  D  & C  & F  \\ \hline
-\textbf{F} &  A  &  B &  D  & E  & C  \\ \hline
-\end{tabular}
+| Noms | Liste de préférences |
+|A | B |C |F |E |D |
+|B | F |D |A |C |E |
+|C | F |E |B |A |D |
+|D | A |C |E |B |F |
+|E | B |A |D |C |F |
+|F | A |B |D |E |C |
 
 ## Authors
 
